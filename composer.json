@@ -3,13 +3,11 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/paste/Paste.git"
-			
+			"url": "git@github.com:paste/Paste.git"
 		}
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"paste/paste": "dev-master",
-		"mustache/mustache": "2.1.*"
+		"paste/paste": "dev-master"
 	}
 }

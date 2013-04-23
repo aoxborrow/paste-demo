@@ -3,7 +3,7 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "/Users/aox/www/Paste"
+			"url": "https://github.com/paste/Paste.git"
 			
 		}
 	],

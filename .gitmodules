@@ -1,6 +1,0 @@
-[submodule "vendor/paste/paste"]
-	path = vendor/paste/paste
-	url = git@github.com:paste/Paste.git
-[submodule "vendor/mustache/mustache"]
-	path = vendor/mustache/mustache
-	url = git@github.com:bobthecow/mustache.php.git

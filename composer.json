@@ -10,7 +10,7 @@
 		"php": ">=5.3.0",
 		"paste/paste": "dev-master"
 	},
-    "config": {
-        "preferred-install": "source"
-    }
+	"config": {
+		"preferred-install": "source"
+	}
 }

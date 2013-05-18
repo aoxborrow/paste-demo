@@ -18,9 +18,9 @@
 
 		<ul class="menu" style="display: none;">
 		{{#root}}
-		{{#is_visible}}<li class="section"><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+		{{#is_visible}}<li class="section"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
 		{{#children}}
-			{{#is_visible}}<li{{#is_section}} class="sub section"{{/is_section}}><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+			{{#is_visible}}<li{{#is_section}} class="sub section"{{/is_section}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
 			{{/is_visible}}
 		{{/children}}{{/is_visible}}
 		{{/root}}
@@ -28,13 +28,13 @@
 		
 		<ul class="menu">
 		{{#root}}
-		{{#is_visible}}<li class="section"><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+		{{#is_visible}}<li class="section"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
 		{{#children}}
-			{{#is_visible}}<li{{#is_section}} class="sub section"{{/is_section}}><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+			{{#is_visible}}<li{{#is_section}} class="sub section"{{/is_section}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
 			{{#children}}
-				{{#is_visible}}<li{{#is_section}} class="subsub section"{{/is_section}}{{^is_section}} class="sub"{{/is_section}}><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+				{{#is_visible}}<li{{#is_section}} class="subsub section"{{/is_section}}{{^is_section}} class="sub"{{/is_section}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
 				{{#children}}
-					{{#is_visible}}<li class="subsub"><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+					{{#is_visible}}<li class="subsub"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
 					{{/is_visible}}
 				{{/children}}{{/is_visible}}
 			{{/children}}{{/is_visible}}

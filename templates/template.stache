@@ -15,32 +15,9 @@
 	<div class="nav">
 		<a class="logo" href="/"><img src="/assets/images/paste_logo.png" width="60" height="60"></a>
 		<p><strong>Hello, </strong>this is <br/>the portfolio of <br/>Aaron Oxborrow.</p>
-
-		<ul class="menu" style="display: none;">
-		{{#root}}
-		{{#is_visible}}<li class="section"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-		{{#children}}
-			{{#is_visible}}<li{{#is_section}} class="sub section"{{/is_section}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-			{{/is_visible}}
-		{{/children}}{{/is_visible}}
-		{{/root}}
-		</ul>
 		
-		<ul class="menu">
-		{{#root}}
-		{{#is_visible}}<li class="section"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-		{{#children}}
-			{{#is_visible}}<li{{#is_section}} class="sub section"{{/is_section}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-			{{#children}}
-				{{#is_visible}}<li{{#is_section}} class="subsub section"{{/is_section}}{{^is_section}} class="sub"{{/is_section}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-				{{#children}}
-					{{#is_visible}}<li class="subsub"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-					{{/is_visible}}
-				{{/children}}{{/is_visible}}
-			{{/children}}{{/is_visible}}
-		{{/children}}{{/is_visible}}
-		{{/root}}
-		</ul>
+		{{>menu}}
+
 	</div>
 
 	<div class="content">

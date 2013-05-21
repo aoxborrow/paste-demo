@@ -16,7 +16,11 @@
 		<a class="logo" href="/"><img src="/assets/images/paste_logo.png" width="60" height="60"></a>
 		<p><strong>Hello, </strong>this is <br/>the portfolio of <br/>Aaron Oxborrow.</p>
 		
-		{{>menu}}
+		<ul class="menu">
+			{{#index_menu}}
+			{{>menu}}
+			{{/index_menu}}
+		</ul>
 
 	</div>
 

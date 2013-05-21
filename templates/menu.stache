@@ -1,14 +1,6 @@
-<ul class="menu">
-{{#index_menu}}
-<li class="section"><a{{#current}} class="selected"{{/current}} href="{{url}}" title="{{title}}">{{label}}</a></li>
+<li class="{{#parent}}section {{/parent}}{{#parents}}sub{{parents}}{{/parents}}"><a{{#current}} class="selected"{{/current}} href="{{url}}" title="{{title}}">{{label}}</a></li>
 {{#children}}
-	<li {{#parent}} class="sub section"{{/parent}}><a{{#current}} class="selected"{{/current}} href="{{url}}" title="{{title}}">{{label}}</a></li>
-	{{#children}}
-		<li{{#parent}} class="subsub section"{{/parent}}{{^parent}} class="sub"{{/parent}}><a{{#current}} class="selected"{{/current}} href="{{url}}" title="{{title}}">{{label}}</a></li>
-		{{#children}}
-			<li class="subsub"><a{{#current}} class="selected"{{/current}} href="{{url}}" title="{{title}}">{{label}}</a></li>
-		{{/children}}
-	{{/children}}
+	{{>menu}}
 {{/children}}
-{{/index_menu}}
-</ul>
+
+

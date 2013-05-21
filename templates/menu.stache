@@ -1,15 +1,14 @@
 <ul class="menu">
-{{#menu}}
-{{#visible}}<li class="section"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
+{{#root_menu}}
+<li class="section"><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
 {{#children}}
-	{{#visible}}<li{{#is_parent}} class="sub section"{{/is_parent}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
+	<li {{#parent}} class="sub section"{{/parent}}><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
 	{{#children}}
-		{{#visible}}<li{{#is_parent}} class="subsub section"{{/is_parent}}{{^is_parent}} class="sub"{{/is_parent}}><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
+		<li{{#parent}} class="subsub section"{{/parent}}{{^parent}} class="sub"{{/parent}}><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
 		{{#children}}
-			{{#visible}}<li class="subsub"><a{{#is_current}} class="selected"{{/is_current}} href="{{url}}">{{title}}</a></li>
-			{{/visible}}
-		{{/children}}{{/visible}}
-	{{/children}}{{/visible}}
-{{/children}}{{/visible}}
-{{/menu}}
+			<li class="subsub"><a{{#current}} class="selected"{{/current}} href="{{url}}">{{title}}</a></li>
+		{{/children}}
+	{{/children}}
+{{/children}}
+{{/root_menu}}
 </ul>

@@ -1,0 +1,3 @@
+showInvisibles = true
+excludeInFolderSearch = "{$excludeInFolderSearch,vendor/mustache/*,vendor/composer/*,*.tmproj,*.mp4,*.mp3,*.mov,*.avi,*.flv,*.swf,*.jpg,*.jpeg,*.png,*.gif,*.log,*.jar,*.map,*.ps,*.ttf,*.tgz,*.zip}"
+excludeInFileChooser = "{$excludeInFileChooser,vendor/mustache/*,vendor/composer*,*.tmproj,*.mp4,*.mp3,*.mov,*.avi,*.flv,*.swf,*.jpg,*.jpeg,*.png,*.gif,*.log,*.jar,*.map,*.ps,*.ttf,*.tgz,*.zip}"

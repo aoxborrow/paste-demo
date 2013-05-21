@@ -116,7 +116,7 @@ ul.menu li a {
 	color: #999;
 	line-height: 23px;
 	font-size: 13px;
-	margin-left: 8px;
+	margin-left: 10px;
 }
 
 ul.menu li.section a {
@@ -127,16 +127,16 @@ ul.menu li.section a {
 	margin-left: 0;
 }
 ul.menu li.sub a {
-	margin-left: 30px;
+	margin-left: 20px;
 }
 ul.menu li.subsub a {
-	margin-left: 50px;
-}
-ul.menu li.section.subsub a {
 	margin-left: 40px;
 }
-ul.menu li.section.sub a {
+ul.menu li.section.subsub a {
 	margin-left: 20px;
+}
+ul.menu li.section.sub a {
+	margin-left: 10px;
 }
 
 

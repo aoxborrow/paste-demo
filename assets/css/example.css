@@ -1,0 +1,176 @@
+/* example styles */
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #ffffff;
+	color: #444;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", verdana, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 100%;
+	line-height: 1.4em;
+	width: 100%;
+	word-spacing: 1px;
+	height: 100%;
+}
+
+/* headline */
+h1 {
+	font-weight: normal !important;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0px 0 20px 0;
+	clear: both;
+	color: #444;
+}
+
+/* clear floats */
+div.clear {
+	clear: both;
+}
+div.spacer {
+	height: 10px;
+	clear: both;
+}
+div.benchmark {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #aaa;
+	font-size: 10px;
+	font-family: Menlo, monospace;
+}
+
+/* link defaults */
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { 
+	color: #222; 
+	text-decoration: none; 
+}
+a:hover { 
+	/*
+	color: #000; 
+	text-decoration: underline; */
+	background-color: #ffff66;
+	color: #000;
+}
+a:link { 
+	-webkit-tap-highlight-color: #222; 
+}
+
+/* text selection */
+::-moz-selection { background: #ffff66; color:#000; text-shadow: none; }
+::selection { background: #ffff66; color:#000; text-shadow: none; }
+
+/* Left Column Navigation */
+.nav {
+	float: left;
+	width: 180px;
+	padding: 30px 0 30px 25px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", verdana, sans-serif;
+}
+
+/* menu links */
+.nav ul li a {
+	text-decoration: none;
+	margin-left: 0px;
+	padding: 2px 4px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #888;
+}
+
+/* section links */
+.nav ul li.section a {
+	color: #444;
+}
+
+/* selected section */
+.nav ul li.section.selected a, .nav ul li.section.selected a:hover, .nav ul li.section.selected a:active {
+	background-color: #444;
+	color: #fff;
+}
+
+/* selected sub page */
+.nav ul li.selected a, .nav ul li.selected a:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+/* parent section of selected page */
+.nav ul li.selected-section a {
+	/* can style this */
+}
+
+/* menu hover style */
+.nav ul li a:hover {
+	background-color: #ffff66;
+	color: #000;
+}
+
+/* indent */
+.nav ul li.sub2 {
+	margin-left: 10px;
+}
+.nav ul li.section.sub2, .nav ul li.sub3 {
+	margin-left: 20px;
+}
+.nav ul li.section.sub3, .nav ul li.sub4 {
+	margin-left: 30px;
+}
+.nav ul li.section.sub4 {
+	margin-left: 40px;
+}
+
+/* Right Column & Page Content */
+div.content {
+	float: left;
+	width: 700px;
+	padding: 30px 50px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	min-height: 500px;
+}
+
+div.content img {
+	border-radius: 7px;
+	margin: 25px 0;
+}
+
+a.arrow, a.hover {
+	float: right;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #aaa;
+	letter-spacing: 1px;
+}
+
+a.arrow.prev {
+	float: left;
+	background-image: url('/assets/images/arrow-left.png');
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding: 2px 7px 2px 18px;
+	width: 13px;
+}
+
+a.arrow.next {
+	float: right;
+	background-image: url('/assets/images/arrow-right.png');
+	background-repeat: no-repeat;
+	background-position: 36px 3px;
+	padding: 2px 18px 0px 0px;
+}
+a.arrow:hover {
+	color: #666;
+	background-color: #fff !important;
+}
+
+
+

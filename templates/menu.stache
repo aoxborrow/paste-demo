@@ -1,4 +1,4 @@
-<li class="{{#parent}}section {{/parent}}{{#parents}}sub{{parents}}{{/parents}}"><a{{#current}} class="selected"{{/current}} href="{{url}}" title="{{title}}">{{label}}</a></li>
+<li class="{{#parent}}section {{/parent}}{{#parents}}sub{{parents}}{{/parents}} {{#current_parent}}selected-section{{/current_parent}} {{#current}}selected{{/current}}"><a href="{{url}}" title="{{title}}">{{label}}</a></li>
 {{#children}}
 	{{>menu}}
 {{/children}}

@@ -5,13 +5,13 @@
 	<title>{{title}} - Paste Example</title>
 	<meta name="description" content="{{description}}">
 	<meta name="author" content="{{author}}">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="stylesheet" href="/assets/css/base.css">
 	<link rel="stylesheet" href="/assets/css/example.css">
 </head>
 <body>
-<div class="clearfix">
-
+<div class="wrapper clear">
 	<div class="nav">
 		<ul>
 			{{#index}}
@@ -23,7 +23,6 @@
 	<div class="content">
 		{{{content}}}
 	</div>
-
 </div>
 </body>
 </html>

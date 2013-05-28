@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>{{title}} - Paste Example</title>
-	<meta name="description" content="{{description}}">
-	<meta name="author" content="{{author}}">
+	<meta name="description" content="An example/demo site built using Paste CMS.">
+	<meta name="author" content="Aaron Oxborrow">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="stylesheet" href="/assets/css/base.css">
@@ -13,6 +13,10 @@
 <body>
 <div class="wrapper clear">
 	<div class="nav">
+		
+		<h3 class="head1">PASTE CMS</h3>
+		<h3 class="head2">DEMO SITE</h3>
+		
 		<ul>
 			{{#index}}
 				{{>menu}}

@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: url('/assets/images/lined-bg.png');
-	background-size: 250px 25px;
+	background-size: 125px 18px;
 	color: #555;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
@@ -24,6 +24,7 @@ div.wrapper {
 	padding: 0;
 	height: 100%;
 	min-width: 1050px;
+	background-color: rgba(255, 255, 255, .4);
 }
 
 /* headline */
@@ -62,16 +63,15 @@ h3 {
 
 .nav h3.head1 {
 	font-weight: 500;
-	font-size: 19px;
+	font-size: 24px;
 	line-height: 1;
-	margin: 0;
-	
+	margin: 0 0 0px 3px;
 }
 .nav h3.head2 {
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 1;
-	margin: 0 0 15px 0;
+	margin: 0 0 20px 3px;
 	color: #c7e0e8;
 }
 
@@ -119,9 +119,9 @@ a:link {
 /* Left Column Navigation */
 .nav {
 	float: left;
-	width: 170px;
+	width: 160px;
 	padding: 0;
-	margin: 25px 0 0 35px;
+	margin: 40px 0 0 30px;
 }
 
 /* menu links */
@@ -184,8 +184,7 @@ a:link {
 div.content {
 	float: left;
 	width: 700px;
-	padding: 0px 25px 40px 30px;
-	border-left: 1px solid #ddd;
+	padding: 15px 25px 40px 30px;
 	border-right: 1px dotted #ddd;
 	border-left: 1px dashed #ffaea1; /*dc8984*/
 	height: 100%;

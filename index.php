@@ -9,6 +9,7 @@ version_compare(PHP_VERSION, '5.3', '<') and exit('Paste requires PHP 5.3 or new
 
 // composer autoload
 require 'vendor/autoload.php';
+use Paste\Paste;
 
 // bare minimum
 // Paste\Paste::run();
@@ -17,12 +18,12 @@ require 'vendor/autoload.php';
 // 'route regex' => any valid callback
 // matched tokens from the regex will be passed as parameters
 // e.g. 'blog/post/([A-Za-z0-9]+)' => 'Class::method',
-Paste\Paste::route('blog/post/([A-Za-z0-9-_]+)', function($slug) { 
+Paste::route('blog/post/([A-Za-z0-9-_]+)', function($slug) { 
 	echo "Example callback route, slug: <b>$slug</b><br/>";
 });
-Paste\Paste::route('debug', function() { 
-	Paste\Page::debug();
+Paste::route('debug', function() { 
+	Paste::debug();
 });
 
-Paste\Paste::run();
+Paste::run();
 

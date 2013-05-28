@@ -25,12 +25,7 @@
 	</div>
 
 	<div class="content">
-		{{#partial}}
-			{{#partial_render}}{{partial}}{{/partial_render}}
-		{{/partial}}
-		{{^partial}}
-			{{{content}}}
-		{{/partial}}
+		{{{content}}}
 	</div>
 
 </div>

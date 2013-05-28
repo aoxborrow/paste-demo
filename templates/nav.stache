@@ -2,4 +2,3 @@
 <a class="arrow next" href="{{next}}">NEXT</a>
 <a class="arrow prev" href="{{prev}}">PREV</a>
 <div class="spacer clear"></div>
-{{{content}}}

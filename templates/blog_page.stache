@@ -1,4 +1,1 @@
-{{#next_page}}<a class="arrow next" href="{{next_page}}">NEXT</a>{{/next_page}}
-{{#prev_page}}<a class="arrow prev" href="{{prev_page}}">PREV</a>{{/prev_page}}
-<div class="spacer clear"></div>
 {{>blog_post}}

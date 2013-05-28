@@ -12,8 +12,6 @@ body {
 	background: url('/assets/images/lined-bg.png');
 	background-size: 250px 25px;
 	color: #555;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", verdana, sans-serif;
-	font-family: Arial, Helvetica, sans-serif;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
@@ -31,13 +29,12 @@ div.wrapper {
 /* headline */
 h1, h2 {
 	font-weight: 500;
-	font-family: arial, helvetica, sans-serif;
 	font-family: 'Roboto', sans-serif;
 	font-size: 45px;
 	line-height: 1;
 	margin: 0px 0 20px -15px;
 	clear: both;
-	color: #444;
+	color: #666;
 	background-color: rgba(255, 255, 163, .4);
 	padding: 3px 6px 4px 15px;
 	display: inline-block;
@@ -51,10 +48,17 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 26px;
 	line-height: 1.4;
-	margin: 10px 0;
+	margin: 10px 0 30px 0;
 	clear: both;
 	color: #fd9888;
 	background-color: transparent;
+}
+h3 {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #8dc4d4;
+	font-weight: 700;
 }
 
 
@@ -167,7 +171,7 @@ a:link {
 div.content {
 	float: left;
 	width: 700px;
-	padding: 0px 50px;
+	padding: 0px 50px 40px 50px;
 	border-left: 1px solid #ddd;
 	border-right: 1px dotted #ddd;
 	border-left: 1px dashed #ffaea1; /*dc8984*/
@@ -186,11 +190,17 @@ div.content img {
 a.arrow {
 	float: right;
 	text-decoration: none;
+	letter-spacing: 1px;	
+	/*
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 18px;
-	color: #888;
-	letter-spacing: 1px;
+	color: #888;*/	
+	font-size: 13px;
+	line-height: 1.4;
+	color: #8dc4d4;
+	font-weight: 700;
+	
 }
 
 a.arrow.prev {

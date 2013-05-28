@@ -21,7 +21,11 @@
 	</div>
 
 	<div class="content">
+		{{>nav}}
+		
 		{{{content}}}
+		
+		{{>infos}}
 	</div>
 </div>
 </body>

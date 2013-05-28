@@ -4,15 +4,7 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:paste/Paste.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:paste/Utils.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:paste/Pre.php.git"
-		}		
+		}
 	],
 	"require": {
 		"php": ">=5.3.0",

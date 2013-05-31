@@ -15,8 +15,7 @@
 <div class="wrapper clear">
 	<div class="nav">
 		
-		<h3 class="head1">Paste</h3>
-		<h3 class="head2">Demo</h3>
+		<a id="head" href="/">Example</a>
 
 		<ul>
 			{{#index}}

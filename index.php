@@ -11,10 +11,7 @@ version_compare(PHP_VERSION, '5.3', '<') and exit('Paste requires PHP 5.3 or new
 require 'vendor/autoload.php';
 use Paste\Paste;
 
-// bare minimum
-// Paste\Paste::run();
-
-// user defined routing
+// (optional) user defined routing
 // 'route regex' => any valid callback
 // matched tokens from the regex will be passed as parameters
 // e.g. 'blog/post/([A-Za-z0-9]+)' => 'Class::method',
@@ -25,5 +22,6 @@ Paste::route('debug', function() {
 	Paste::debug();
 });
 
+// init routing and run
 Paste::run();
 

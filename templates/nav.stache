@@ -1,4 +1,4 @@
 <div class="spacer clear" style="height: 25px;"></div>
 <a class="arrow next" href="{{next}}">NEXT</a>
-<a class="arrow prev" href="{{prev}}">PREV</a>
-<div class="spacer clear"></div>
+<!--<a class="arrow prev" href="{{prev}}">PREV</a>
+<div class="spacer clear"></div>-->

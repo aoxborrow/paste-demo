@@ -1,7 +1,6 @@
 <br>
-<h3>path:</h3>
-<b>{{path}}</b><br>
-<h3>template:</h3>
-<b>{{template}}</b><br>
-{{#partials}}<h3>partials:</h3>
-<b>{{#partials}}{{ . }} {{/partials}}</b><br>{{/partials}}
+<p class="infos">
+path: <b>content/{{path}}</b><br>
+template: <b>{{template}}{{#template}}.stache{{/template}}</b><br>
+{{#partials}}partials: <b>{{#partials}}{{ . }}.stache  {{/partials}}</b>{{/partials}}
+</p>

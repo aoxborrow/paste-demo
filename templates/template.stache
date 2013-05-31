@@ -15,7 +15,7 @@
 <div class="wrapper clear">
 	<div class="nav">
 		
-		<h3><a href="/">Demo</a></h3>
+		<h3 class="demo"><a href="/">Demo</a></h3>
 
 		<ul>
 			{{#index}}
@@ -25,12 +25,14 @@
 	</div>
 
 	<div class="content">
-		{{>prev_next}}
+		{{>arrows}}
 		
 		{{{content}}}
 		
-		{{>info}}
+		{{>debug}}
+		<div class="clear"></div>
 	</div>
+	<div class="clear"></div>
 </div>
 </body>
 </html>

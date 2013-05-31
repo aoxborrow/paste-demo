@@ -1,8 +1,9 @@
 <br>
-<p style="font-size: 12px; font-family: Menlo, monospace;">
+<p style="font-size: 12px; font-family: Menlo, monospace; display: inline-block;">
 <b>url:</b> {{url}}<br>
 <b>path:</b> /content/{{path}}<br>
 {{#parent}}<b>parent:</b> {{name}}<br>{{/parent}}
 <b>template:</b> {{template}}{{#template}}.stache{{/template}}<br>
-{{#partials}}<b>partials:</b> {{ . }}.stache {{/partials}}
+{{#partial}}<b>partial:</b> {{ . }}.stache {{/partial}}
+<!-- benchmark -->
 </p>

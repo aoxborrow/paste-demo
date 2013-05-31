@@ -53,9 +53,9 @@ h1 {
 h2 {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 24px;
 	line-height: 1.4;
-	margin: 5px 0 10px 0;
+	margin: 5px 0 0 0;
 	color: #fd9888;
 	color: #999;
 }
@@ -102,7 +102,7 @@ div.benchmark {
 	float: left;
 	width: 160px;
 	padding: 0;
-	margin: 30px 0 0 30px;
+	margin: 35px 0 0 30px;
 }
 
 /* menu links */

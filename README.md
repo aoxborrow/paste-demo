@@ -1,4 +1,4 @@
-This is an example site built using [Paste](https://github.com/paste/Paste).
+# http://paste-demo.pastelabs.com
 
-[Paste](https://github.com/paste/Paste) is a super simple "CMS" that uses static files and folders instead of a database.
+This is a demo site for [Paste](https://github.com/paste/Paste) -- a lightweight "CMS" built around static files and folders instead of a database.
 

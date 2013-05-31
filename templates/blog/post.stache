@@ -1,4 +1,5 @@
 {{>blog/header}}
 <h2>{{{title}}}</h2>
-<p style="font-size: 14px; color: #999; margin: 0 0 10px 0;">{{date}}&nbsp;&nbsp;<a href="/notes/post/{{date}}/{{slug}}" style="font-weight: bold;">#{{slug}}</a></p>
+<p style="font-size: 14px; color: #999; margin: 0 0 10px 0;">{{year}}/{{month}}/{{day}}/{{slug}}&nbsp;&nbsp;
+	<a href="/blog/post/{{year}}/{{month}}/{{day}}/{{slug}}" style="font-weight: bold;">#{{slug}}</a></p>
 {{{content}}}

@@ -1,6 +1,7 @@
 <br>
 <p style="font-size: 11px; line-height: 1.7; font-family: Menlo, monospace; display: inline-block;">
 <b>url:</b> {{url}}<br>
+<b>timestamp:</b> {{timestamp}}<br>
 <b>path:</b> /content/{{path}}<br>
 {{#parent}}<b>parent:</b> {{name}}<br>{{/parent}}
 <b>template:</b> {{template}}{{#template}}.stache<br>{{/template}}

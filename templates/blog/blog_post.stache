@@ -1,3 +1,0 @@
-<h1>{{title}}</h1>
-<p style="font-size: 14px; color: #999; margin: 0 0 10px 0;">{{date}}&nbsp;&nbsp;<a href="/notes/post/{{slug}}" style="font-weight: bold;">#{{slug}}</a></p>
-{{{content}}}

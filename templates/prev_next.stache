@@ -1,0 +1,4 @@
+<div class="spacer clear" style="height: 25px;"></div>
+{{#next}}<a class="arrow next" href="{{.}}">NEXT &rarr;</a>{{/next}}
+{{#prev}}<a class="arrow prev" href="{{.}}">&larr; PREV</a>{{/prev}}
+<div class="spacer clear"></div>

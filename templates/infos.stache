@@ -1,7 +1,0 @@
-<br>
-<p style="font-size: 14px;">
-<b>url:</b> {{url}}<br>
-<b>path:</b> /content/{{path}}<br>
-<b>template:</b> {{template}}{{#template}}.stache{{/template}}<br>
-{{#partials}}<b>partials:</b> {{#partials}}{{ . }}.stache  {{/partials}}{{/partials}}
-</p>

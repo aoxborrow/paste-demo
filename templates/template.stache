@@ -25,11 +25,11 @@
 	</div>
 
 	<div class="content">
-		{{>nav}}
+		{{>prev_next}}
 		
 		{{{content}}}
 		
-		{{>infos}}
+		{{>info}}
 	</div>
 </div>
 </body>

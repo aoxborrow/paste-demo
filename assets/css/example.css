@@ -171,7 +171,9 @@ div.content {
 	        box-shadow:  3px 0px 3px 3px rgba(169, 213, 226, .15);
 }
 
-div.project {
+div.project, a.project-thumb {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
 	background: #eee url("/assets/images/empty-box.png") no-repeat;
 	background-size: 700px 350px;
 	display: block;
@@ -186,6 +188,23 @@ div.project {
 	line-height: 350px;
 	color: #ddd;
 	font-weight: normal;
+	
+}
+a.project-thumb {
+	opacity: 1;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-size: 200px 200px;
+	font-size: 30px;
+	line-height: 200px;
+	margin: 20px 25px 20px 0;
+	color: #aaa !important;
+	text-decoration: none !important;
+}
+a.project-thumb:hover {
+	color: #e7624d !important;
+	border: 2px solid #e7624d;
 }
 
 div.project.about {
@@ -194,6 +213,8 @@ div.project.about {
 	width: 300px;
 	height: 300px;
 	background-size: 300px 300px;
+	font-size: 120px;
+	line-height: 300px;
 }
 
 div.content img.screenshot {

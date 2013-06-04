@@ -43,12 +43,17 @@ h1 {
 	font-weight: 700;
 	font-size: 45px;
 	line-height: 1;
-	margin: 0px 0 20px -10px;
+	margin: -5px 0 20px -10px;
 	clear: both;
 	color: #666;
 	background-color: rgba(255, 255, 163, .4);
 	padding: 8px 10px 5px 10px;
 	display: inline-block;
+}
+h1 a {
+	font-weight: bold; 
+	color: #444;
+	text-decoration: none;
 }
 h2 {
 	font-family: 'PT Sans', sans-serif;
@@ -57,7 +62,7 @@ h2 {
 	line-height: 1.4;
 	margin: 5px 0 0 0;
 	color: #fd9888;
-	color: #999;
+	color: #777;
 }
 h2 a {
 	text-decoration: none !important;
@@ -65,17 +70,23 @@ h2 a {
 h3  {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
-	font-size: 35px;
-	line-height: 1;
-	margin: 0 0 12px 0;
+	font-size: 30px;
+	line-height: 1.1;
+	margin: 0;
 	color: #666;
 	color: #e7624d !important;
-	display: inline-block;
-}
-h3.demo {
-	margin: 0 0 20px 3px;
 }
 h3 a {
+	color: #e7624d !important;
+	text-decoration: none !important;
+}
+h3.demo {
+	line-height: .95;
+	font-size: 35px;
+	display: inline-block;
+	margin: 0 0 20px 3px;
+}
+h3.demo a {
 	font-weight: 700;
 	color: #e7624d !important;
 	text-decoration: none !important;
@@ -100,6 +111,10 @@ div.benchmark {
 	color: #bbb;
 	font-size: 9px;
 	font-family: Menlo, monospace;
+}
+
+p {
+	margin-bottom: 10px;
 }
 
 /* Left Column Navigation */
@@ -161,14 +176,13 @@ div.benchmark {
 div.content {
 	float: left;
 	width: 700px;
-	padding: 10px 25px 40px 30px;
+	padding: 0px 25px 0px 30px;
 	border-right: 1px dotted #ddd;
 	border-left: 2px dotted #ffaea1; /*dc8984*/
 	height: 100%;
-	min-height: 800px;
 	
-	-webkit-box-shadow:  3px 0px 3px 3px rgba(169, 213, 226, .15);
-	        box-shadow:  3px 0px 3px 3px rgba(169, 213, 226, .15);
+	-webkit-box-shadow:  3px 0px 5px 5px rgba(169, 213, 226, .15);
+	        box-shadow:  3px 0px 5px 5px rgba(169, 213, 226, .15);
 }
 
 div.project, a.project-thumb {
@@ -224,6 +238,31 @@ div.content img.screenshot {
 	background-color: #fff;
 	padding: 5px;
 	border: 1px solid rgba(169, 213, 226, .8);
+}
+
+p.date {
+	margin: 0 0 5px 0;
+}
+p.date a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #aaa;
+	margin: 0;
+}
+p.date a:hover {
+	color: #e7624d;
+}
+
+a.readmore {
+	font-size: 13px;
+	line-height: 1.2;
+	text-decoration: none;
+	border-bottom: 1px solid #bbb;
+	color: #999;
+}
+a:hover.readmore {
+	color: #e7624d;
+	border-bottom: 1px solid #e7624d;
 }
 
 a.arrow {

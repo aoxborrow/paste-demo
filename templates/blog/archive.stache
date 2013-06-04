@@ -1,2 +1,0 @@
-{{>blog/header}}
-{{#children}}<h2>{{{title}}}</h2><p><b>{{date}}</b><br/>{{path}}</p><br/>{{/children}}

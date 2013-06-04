@@ -1,6 +1,7 @@
-{{>blog/header}}
 <h3><a href="{{url}}">{{{title}}}</a></h3>
 <p class="date">
 	<a href="{{url}}"><b>#</b>&nbsp;{{year}}-{{month}}-{{day}}</a>
 </p>
-{{{content}}}
+{{{excerpt}}}
+<br/><a href="{{url}}" class="readmore">Read more...</a>
+<br/><br/>

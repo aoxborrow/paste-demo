@@ -1,0 +1,4 @@
+{{>blog/header}}
+{{#children}}
+	{{>blog/excerpt}}
+{{/children}}

@@ -1,5 +1,4 @@
-<h3>Projects/</h3><br/>
-
+<h3><a href="/projects/">Projects/</a></h3>
 {{#children}}
 	<a class="project-thumb" href="{{url}}">{{title}}</a>
 {{/children}}

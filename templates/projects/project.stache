@@ -1,6 +1,4 @@
-<h3>Projects/</h3><br/>
+<h3 style="margin-bottom: 10px;"><a href="/projects/">Projects/</a></h3>
 <h1>{{{title}}}</h1>
-
 {{{content}}}
-
 <div class="project">{{title}}</div>

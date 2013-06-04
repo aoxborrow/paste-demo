@@ -1,16 +1,8 @@
 {
 	"name": "paste/paste-demo",
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git@github.com:paste/Paste.git"
-		}
-	],
 	"require": {
 		"php": ">=5.3.0",
-		"paste/paste": "dev-master",
-		"paste/utils": "dev-master",
-		"paste/pre": "dev-master"
+		"paste/paste": "dev-master"
 	},
 	"config": {
 		"preferred-install": "source"

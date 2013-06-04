@@ -18,12 +18,6 @@ use Paste\Paste;
 Paste::route('blog/([0-9]{4})/([0-9]{2})/([0-9]{2})/([A-Za-z0-9-]+)', function($year, $month, $day, $name) { 
 	// strip date and run normal content request
 	Paste::content_request("blog/$name");
-
-});
-
-// debugging route
-Paste::route('debug', function() { 
-	Paste::debug();
 });
 
 // init routing and run

@@ -6,16 +6,15 @@
 	<meta name="description" content="An example/demo site built using Paste CMS.">
 	<meta name="author" content="Aaron Oxborrow">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="stylesheet" href="/assets/css/base.css">
-	<link rel="stylesheet" href="/assets/css/example.css">
+	<link rel="stylesheet" href="{{base_url}}assets/css/base.css">
+	<link rel="stylesheet" href="{{base_url}}assets/css/example.css">
 </head>
 <body>
 <a href="https://github.com/paste/paste-demo"><img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 <div class="wrapper">
 	<div class="nav">
-		
-		<h3 class="demo"><a href="/">Demo</a></h3>
+
+		<h3 class="demo"><a href="{{base_url}}">Demo</a></h3>
 
 		<ul>
 			{{#index}}
@@ -27,9 +26,9 @@
 	<div class="content">
 		<div class="spacer" style="height: 35px;"></div>
 		{{>arrows}}
-		
+
 		{{{content}}}
-		
+
 		{{>debug}}
 		<div class="clear"></div>
 	</div>

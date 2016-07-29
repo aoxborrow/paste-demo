@@ -9,7 +9,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background: url('/assets/images/lined-bg.png');
+	background: url('../images/lined-bg.png');
 	background-size: 125px 18px;
 	color: #555;
 	font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ h1 {
 	display: inline-block;
 }
 h1 a {
-	font-weight: bold; 
+	font-weight: bold;
 	color: #444;
 	text-decoration: none;
 }
@@ -180,7 +180,7 @@ div.content {
 	border-right: 1px dotted #ddd;
 	border-left: 2px dotted #ffaea1; /*dc8984*/
 	height: 100%;
-	
+
 	-webkit-box-shadow:  3px 0px 5px 5px rgba(169, 213, 226, .15);
 	        box-shadow:  3px 0px 5px 5px rgba(169, 213, 226, .15);
 }
@@ -188,12 +188,12 @@ div.content {
 div.project, a.project-thumb {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
-	background: #eee url("/assets/images/empty-box.png") no-repeat;
+	background: #eee url("../images/empty-box.png") no-repeat;
 	background-size: 700px 350px;
 	display: block;
 	width: 700px;
 	height: 350px;
-	margin: 25px 0; 
+	margin: 25px 0;
 	opacity: .7;
 	border-radius: 7px;
 	border: 2px solid #ccc;
@@ -202,7 +202,7 @@ div.project, a.project-thumb {
 	line-height: 350px;
 	color: #ddd;
 	font-weight: normal;
-	
+
 }
 a.project-thumb {
 	opacity: 1;
@@ -271,7 +271,7 @@ a.arrow {
 	float: right;
 	display: inline-block;
 	text-decoration: none;
-	letter-spacing: 1px;	
+	letter-spacing: 1px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #999;
@@ -285,7 +285,3 @@ a.arrow:hover {
 	color: #e7624d;
 	background-color: transparent !important;
 }
-
-
-
-
